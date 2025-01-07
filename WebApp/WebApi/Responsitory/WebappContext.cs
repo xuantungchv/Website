@@ -17,5 +17,14 @@ namespace WebApi.Responsitory
         {
             base.OnConfiguring(optionsBuilder);
         }
+        //protected override void OnModelCreating(ModelBuilder builder)
+        //{
+        //    base.OnModelCreating(builder);
+        //}
+        //public override int SaveChanges()
+        //{
+
+        //    return base.SaveChanges();  
+        //}
     }
 }

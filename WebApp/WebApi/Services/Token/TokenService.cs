@@ -3,10 +3,11 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using WebApi.Responsitory.Entity;
+using WebApi.Services.Token;
 
-namespace WebApi.Services
+namespace WebApi.Services.Token
 {
-    public class TokenService
+    public class TokenService : ITokenService
     {
         private readonly IConfiguration _configuration;
         public TokenService(IConfiguration configuration)

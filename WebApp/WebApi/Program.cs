@@ -2,10 +2,16 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using WebApi;
 using WebApi.Responsitory;
+using WebApi.Services;
+using WebApi.Services.Token;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+builder.Logging.ClearProviders();
+builder.Logging.AddLog4Net();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -31,6 +37,7 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
     };
 });
+new DI(builder).build();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
