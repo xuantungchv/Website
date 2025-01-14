@@ -1,16 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using log4net;
+using Microsoft.AspNetCore.Mvc;
 using WebApi.Controllers.DTOs;
 
 namespace WebApi.Controllers
 {
     public class BaseController : Controller
     {
-        private readonly ILogger<BaseController> _logger;
-
-        public BaseController(ILogger<BaseController> logger)
-        {
-            _logger = logger;
-        }
+        private readonly ILog _logger = LogManager.GetLogger(typeof(BaseController));
 
         public IActionResult ResponseRequest(int statusCodes, object? data = null, string message = "")
         {
@@ -19,7 +15,7 @@ namespace WebApi.Controllers
             response.StatusCode = statusCodes;
             response.Data = data;
             response.SetMessage(message);
-            _logger.LogInformation("", response);
+            _logger.Info(new { obj = response, message= "" });
             return Ok(response);
         }
         
@@ -28,7 +24,7 @@ namespace WebApi.Controllers
             var response = new ResponseDTO();
             response.StatusCode = statusCodes;
             response.SetMessage(message);
-            _logger.LogInformation("", response);
+            _logger.Info(new { obj = response, message = "" });
             return Ok(response);
         }
         public IActionResult ResponseRequest(int statusCodes)
@@ -36,7 +32,7 @@ namespace WebApi.Controllers
             var response = new ResponseDTO();
             response.StatusCode = statusCodes;
             response.SetMessage(null);
-            _logger.LogInformation("", response);
+            _logger.Info(new { obj = response, message = "" });
             return Ok(response);
         }
     }
