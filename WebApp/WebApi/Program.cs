@@ -3,11 +3,11 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
-using WebApi;
-using WebApi.Responsitory;
-using WebApi.Responsitory.Entity;
-using WebApi.Services;
-using WebApi.Services.Token;
+using Ifrastructure;
+using Ifrastructure.Responsitory;
+using Ifrastructure.Responsitory.Entity;
+using Ifrastructure.Services;
+using Ifrastructure.Services.Token;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -19,7 +19,7 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddIdentityCore<Users>().AddEntityFrameworkStores<WebappContext>().AddDefaultTokenProviders();
+builder.Services.AddIdentity<Users,IdentityRole>().AddEntityFrameworkStores<WebappContext>().AddDefaultTokenProviders();
 builder.Services.AddDbContext<WebappContext>((options) =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("WebappDatabase"));

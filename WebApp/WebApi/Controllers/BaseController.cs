@@ -1,14 +1,14 @@
 ﻿using log4net;
 using Microsoft.AspNetCore.Mvc;
-using WebApi.Controllers.DTOs;
+using Ifrastructure.Controllers.DTOs;
 
-namespace WebApi.Controllers
+namespace Ifrastructure.Controllers
 {
     public class BaseController : Controller
     {
         private readonly ILog _logger = LogManager.GetLogger(typeof(BaseController));
 
-        public IActionResult ResponseRequest(int statusCodes, object? data = null, string message = "")
+        public IActionResult ResponseRequest(int statusCodes, object data, string message = "")
         {
             
             var response = new ResponseDTO();

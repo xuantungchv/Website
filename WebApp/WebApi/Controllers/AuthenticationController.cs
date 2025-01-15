@@ -2,11 +2,11 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.Data;
 using Microsoft.AspNetCore.Mvc;
-using WebApi.Responsitory.Entity;
-using WebApi.Services.DTOs;
-using WebApi.Services.Token;
+using Ifrastructure.Responsitory.Entity;
+using Ifrastructure.Services.DTOs;
+using Ifrastructure.Services.Token;
 
-namespace WebApi.Controllers
+namespace Ifrastructure.Controllers
 {
     [ApiController]
     [Route("/Authen")]
@@ -39,7 +39,7 @@ namespace WebApi.Controllers
                 };
                 var response = await _signInManager.PasswordSignInAsync(user.UserName, request.Password, false, false);
                 if (response != null && response.Succeeded)
-                    return ResponseRequest(StatusCodes.Status200OK, _tokenService.GenerateToken(user));
+                    return ResponseRequest(StatusCodes.Status200OK, _tokenService.GenerateToken(user),"");
                 return ResponseRequest(StatusCodes.Status401Unauthorized);
             }
             catch (Exception ex)

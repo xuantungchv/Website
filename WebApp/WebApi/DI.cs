@@ -1,6 +1,6 @@
-﻿using WebApi.Services.Token;
+﻿using Ifrastructure.Services.Token;
 
-namespace WebApi
+namespace Ifrastructure
 {
     public class DI
     {

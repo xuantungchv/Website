@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using System.ComponentModel.DataAnnotations;
 
-namespace WebApi.Responsitory.Entity
+namespace Ifrastructure.Responsitory.Entity
 {
     public class ClassInfo
     {

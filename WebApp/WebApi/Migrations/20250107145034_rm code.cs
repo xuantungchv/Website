@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace WebApi.Migrations
+namespace Ifrastructure.Migrations
 {
     /// <inheritdoc />
     public partial class rmcode : Migration

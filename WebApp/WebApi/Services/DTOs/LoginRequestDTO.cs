@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.Data;
 
-namespace WebApi.Services.DTOs
+namespace Ifrastructure.Services.DTOs
 {
     public class LoginRequestDTO
     {

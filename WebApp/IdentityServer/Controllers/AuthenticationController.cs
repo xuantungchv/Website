@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using IdentityServer4.
 namespace IdentityServer.Controllers
 {
     public class AuthenticationController : Controller

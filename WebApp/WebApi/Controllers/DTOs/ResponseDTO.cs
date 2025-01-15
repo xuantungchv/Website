@@ -1,7 +1,7 @@
 ﻿using Azure;
 using Microsoft.AspNetCore.Http;
 
-namespace WebApi.Controllers.DTOs
+namespace Ifrastructure.Controllers.DTOs
 {
     public class ResponseDTO
     {

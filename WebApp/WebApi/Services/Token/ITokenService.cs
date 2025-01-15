@@ -2,9 +2,9 @@
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-using WebApi.Responsitory.Entity;
+using Ifrastructure.Responsitory.Entity;
 
-namespace WebApi.Services.Token
+namespace Ifrastructure.Services.Token
 {
     public interface ITokenService
     {

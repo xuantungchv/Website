@@ -1,4 +1,4 @@
-﻿namespace WebApi.Services.DTOs
+﻿namespace Ifrastructure.Services.DTOs
 {
     public class LoginDTO
     {

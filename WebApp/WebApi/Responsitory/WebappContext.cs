@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using WebApi.Responsitory.Entity;
+using Ifrastructure.Responsitory.Entity;
 
-namespace WebApi.Responsitory
+namespace Ifrastructure.Responsitory
 {
     public class WebappContext : IdentityDbContext<Users>
     {
