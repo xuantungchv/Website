@@ -6,8 +6,8 @@ using System.Text;
 using Ifrastructure;
 using Ifrastructure.Responsitory;
 using Ifrastructure.Responsitory.Entity;
-using Ifrastructure.Services;
-using Ifrastructure.Services.Token;
+using IdentityServer.Services;
+using IdentityServer.Services.Token;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.

@@ -3,7 +3,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using Ifrastructure.Responsitory.Entity;
-using Ifrastructure.Services.Token;
+using IdentityServer.Services.Token;
 
 namespace Ifrastructure.Services.Token
 {

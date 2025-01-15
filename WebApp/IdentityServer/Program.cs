@@ -13,7 +13,8 @@ builder.Services.AddIdentityServer(options => {
     options.Events.RaiseSuccessEvents = true;
     options.EmitStaticAudienceClaim = true;
 
-}).AddTestUsers<new List<Users>>;
+});
+//builder.Services.addJwt
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
