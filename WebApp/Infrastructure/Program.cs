@@ -3,11 +3,9 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
-using Ifrastructure;
 using Ifrastructure.Responsitory;
 using Ifrastructure.Responsitory.Entity;
-using IdentityServer.Services;
-using IdentityServer.Services.Token;
+using Ifrastructure;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -40,9 +38,8 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
     };
 });
-new DI(builder).build();
+//builder.Services.AddInfrastructureDI();
 var app = builder.Build();
-
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {

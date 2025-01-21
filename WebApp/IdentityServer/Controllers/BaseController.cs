@@ -1,8 +1,8 @@
 ﻿using log4net;
 using Microsoft.AspNetCore.Mvc;
-using Ifrastructure.Controllers.DTOs;
+using IdentityServer.Controllers.DTOs;
 
-namespace Ifrastructure.Controllers
+namespace IdentityServer.Controllers
 {
     public class BaseController : Controller
     {

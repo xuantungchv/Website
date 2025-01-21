@@ -1,4 +1,4 @@
-﻿namespace Ifrastructure.Services.DTOs
+﻿namespace IdentityServer.DTOs
 {
     public class LoginDTO
     {

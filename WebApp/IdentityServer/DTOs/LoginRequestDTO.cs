@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.Data;
 
-namespace IdentityServer.Services.DTOs
+namespace IdentityServer.DTOs
 {
     public class LoginRequestDTO
     {

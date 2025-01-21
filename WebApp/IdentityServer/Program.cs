@@ -1,3 +1,5 @@
+using Ifrastructure;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -14,6 +16,7 @@ builder.Services.AddIdentityServer(options => {
     options.EmitStaticAudienceClaim = true;
 
 });
+builder.Services.AddIdentityServerDI();
 //builder.Services.addJwt
 var app = builder.Build();
 

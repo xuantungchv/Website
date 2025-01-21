@@ -1,7 +1,4 @@
-﻿using Azure;
-using Microsoft.AspNetCore.Http;
-
-namespace Ifrastructure.Controllers.DTOs
+﻿namespace IdentityServer.Controllers.DTOs
 {
     public class ResponseDTO
     {

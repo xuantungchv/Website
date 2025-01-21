@@ -1,11 +1,11 @@
-﻿using Microsoft.IdentityModel.Tokens;
+﻿using Azure.Core;
+using Ifrastructure.Responsitory.Entity;
+using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-using Ifrastructure.Responsitory.Entity;
-using IdentityServer.Services.Token;
 
-namespace Ifrastructure.Services.Token
+namespace Infrastructure.Services.Token
 {
     public class TokenService : ITokenService
     {
@@ -14,8 +14,17 @@ namespace Ifrastructure.Services.Token
         {
             _configuration = configuration;
         }
-        public string GenerateToken(Users user)
+        public string GenerateToken(string userName, string passWord)
         {
+
+
+            var user = new Users
+            {
+                UserName = userName,
+                Email = "111@gamil.com"
+
+            };
+
             var claims = new[]
             {
                 new Claim(JwtRegisteredClaimNames.Sub, user.UserName),
