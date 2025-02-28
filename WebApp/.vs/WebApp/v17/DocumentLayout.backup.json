@@ -1,46 +1,58 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Project\\NetCore\\Website\\WebApp\\",
+  "WorkspaceRootPath": "D:\\TungProject\\WebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E00C96BB-ADE9-4A01-B7D2-DBDFE1A915A1}|IdentityServer\\IdentityServer.csproj|d:\\project\\netcore\\website\\webapp\\identityserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E00C96BB-ADE9-4A01-B7D2-DBDFE1A915A1}|IdentityServer\\IdentityServer.csproj|solutionrelative:identityserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5E96AB33-C2F3-4B8A-A1C6-9251847F811E}|WebApiDemo\\WebApiDemo.csproj|d:\\tungproject\\webapp\\webapidemo\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E96AB33-C2F3-4B8A-A1C6-9251847F811E}|WebApiDemo\\WebApiDemo.csproj|solutionrelative:webapidemo\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E00C96BB-ADE9-4A01-B7D2-DBDFE1A915A1}|IdentityServer\\IdentityServer.csproj|d:\\project\\netcore\\website\\webapp\\identityserver\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E00C96BB-ADE9-4A01-B7D2-DBDFE1A915A1}|IdentityServer\\IdentityServer.csproj|solutionrelative:identityserver\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5E96AB33-C2F3-4B8A-A1C6-9251847F811E}|WebApiDemo\\WebApiDemo.csproj|d:\\tungproject\\webapp\\webapidemo\\controllers\\dtos\\loginrequestdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E96AB33-C2F3-4B8A-A1C6-9251847F811E}|WebApiDemo\\WebApiDemo.csproj|solutionrelative:webapidemo\\controllers\\dtos\\loginrequestdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E00C96BB-ADE9-4A01-B7D2-DBDFE1A915A1}|IdentityServer\\IdentityServer.csproj|d:\\project\\netcore\\website\\webapp\\identityserver\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E00C96BB-ADE9-4A01-B7D2-DBDFE1A915A1}|IdentityServer\\IdentityServer.csproj|solutionrelative:identityserver\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{87769746-6E2B-49A9-BBA7-A3D9839E1D92}|Application\\Application.csproj|d:\\tungproject\\webapp\\application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87769746-6E2B-49A9-BBA7-A3D9839E1D92}|Application\\Application.csproj|solutionrelative:application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E00C96BB-ADE9-4A01-B7D2-DBDFE1A915A1}|IdentityServer\\IdentityServer.csproj|d:\\project\\netcore\\website\\webapp\\identityserver\\fillter\\errorhandlingfilterattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E00C96BB-ADE9-4A01-B7D2-DBDFE1A915A1}|IdentityServer\\IdentityServer.csproj|solutionrelative:identityserver\\fillter\\errorhandlingfilterattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5E96AB33-C2F3-4B8A-A1C6-9251847F811E}|WebApiDemo\\WebApiDemo.csproj|d:\\tungproject\\webapp\\webapidemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E96AB33-C2F3-4B8A-A1C6-9251847F811E}|WebApiDemo\\WebApiDemo.csproj|solutionrelative:webapidemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E00C96BB-ADE9-4A01-B7D2-DBDFE1A915A1}|IdentityServer\\IdentityServer.csproj|d:\\project\\netcore\\website\\webapp\\identityserver\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E00C96BB-ADE9-4A01-B7D2-DBDFE1A915A1}|IdentityServer\\IdentityServer.csproj|solutionrelative:identityserver\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CC9BA6B-272A-471E-BEEA-6497753A641E}|Infratructure\\Infratructure.csproj|d:\\project\\netcore\\website\\webapp\\infratructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5CC9BA6B-272A-471E-BEEA-6497753A641E}|Infratructure\\Infratructure.csproj|d:\\tungproject\\webapp\\infratructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5CC9BA6B-272A-471E-BEEA-6497753A641E}|Infratructure\\Infratructure.csproj|solutionrelative:infratructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CC9BA6B-272A-471E-BEEA-6497753A641E}|Infratructure\\Infratructure.csproj|d:\\project\\netcore\\website\\webapp\\infratructure\\configurationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CC9BA6B-272A-471E-BEEA-6497753A641E}|Infratructure\\Infratructure.csproj|solutionrelative:infratructure\\configurationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{87769746-6E2B-49A9-BBA7-A3D9839E1D92}|Application\\Application.csproj|d:\\tungproject\\webapp\\application\\authentication\\mediarhandle\\loginqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87769746-6E2B-49A9-BBA7-A3D9839E1D92}|Application\\Application.csproj|solutionrelative:application\\authentication\\mediarhandle\\loginqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E00C96BB-ADE9-4A01-B7D2-DBDFE1A915A1}|IdentityServer\\IdentityServer.csproj|d:\\project\\netcore\\website\\webapp\\identityserver\\middleware\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E00C96BB-ADE9-4A01-B7D2-DBDFE1A915A1}|IdentityServer\\IdentityServer.csproj|solutionrelative:identityserver\\middleware\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{87769746-6E2B-49A9-BBA7-A3D9839E1D92}|Application\\Application.csproj|d:\\tungproject\\webapp\\application\\authentication\\query\\loginquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87769746-6E2B-49A9-BBA7-A3D9839E1D92}|Application\\Application.csproj|solutionrelative:application\\authentication\\query\\loginquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CC9BA6B-272A-471E-BEEA-6497753A641E}|Infratructure\\Infratructure.csproj|d:\\project\\netcore\\website\\webapp\\infratructure\\services\\user\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{87769746-6E2B-49A9-BBA7-A3D9839E1D92}|Application\\Application.csproj|d:\\tungproject\\webapp\\application\\servies\\user\\iuserservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87769746-6E2B-49A9-BBA7-A3D9839E1D92}|Application\\Application.csproj|solutionrelative:application\\servies\\user\\iuserservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CC9BA6B-272A-471E-BEEA-6497753A641E}|Infratructure\\Infratructure.csproj|d:\\tungproject\\webapp\\infratructure\\services\\user\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5CC9BA6B-272A-471E-BEEA-6497753A641E}|Infratructure\\Infratructure.csproj|solutionrelative:infratructure\\services\\user\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CC9BA6B-272A-471E-BEEA-6497753A641E}|Infratructure\\Infratructure.csproj|d:\\project\\netcore\\website\\webapp\\infratructure\\services\\token\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CC9BA6B-272A-471E-BEEA-6497753A641E}|Infratructure\\Infratructure.csproj|solutionrelative:infratructure\\services\\token\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{87769746-6E2B-49A9-BBA7-A3D9839E1D92}|Application\\Application.csproj|d:\\tungproject\\webapp\\application\\authentication\\mediarhandle\\registercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87769746-6E2B-49A9-BBA7-A3D9839E1D92}|Application\\Application.csproj|solutionrelative:application\\authentication\\mediarhandle\\registercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87769746-6E2B-49A9-BBA7-A3D9839E1D92}|Application\\Application.csproj|d:\\tungproject\\webapp\\application\\authentication\\command\\regitercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87769746-6E2B-49A9-BBA7-A3D9839E1D92}|Application\\Application.csproj|solutionrelative:application\\authentication\\command\\regitercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E00C96BB-ADE9-4A01-B7D2-DBDFE1A915A1}|IdentityServer\\IdentityServer.csproj|d:\\tungproject\\webapp\\identityserver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E00C96BB-ADE9-4A01-B7D2-DBDFE1A915A1}|IdentityServer\\IdentityServer.csproj|solutionrelative:identityserver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E00C96BB-ADE9-4A01-B7D2-DBDFE1A915A1}|IdentityServer\\IdentityServer.csproj|d:\\tungproject\\webapp\\identityserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E00C96BB-ADE9-4A01-B7D2-DBDFE1A915A1}|IdentityServer\\IdentityServer.csproj|solutionrelative:identityserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,130 +66,171 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BaseController.cs",
-              "DocumentMoniker": "D:\\Project\\NetCore\\Website\\WebApp\\IdentityServer\\Controllers\\BaseController.cs",
-              "RelativeDocumentMoniker": "IdentityServer\\Controllers\\BaseController.cs",
-              "ToolTip": "D:\\Project\\NetCore\\Website\\WebApp\\IdentityServer\\Controllers\\BaseController.cs",
-              "RelativeToolTip": "IdentityServer\\Controllers\\BaseController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\TungProject\\WebApp\\WebApiDemo\\Program.cs",
+              "RelativeDocumentMoniker": "WebApiDemo\\Program.cs",
+              "ToolTip": "D:\\TungProject\\WebApp\\WebApiDemo\\Program.cs",
+              "RelativeToolTip": "WebApiDemo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T14:43:33.726Z",
+              "WhenOpened": "2025-02-28T10:16:39.459Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "AuthenticationController.cs",
-              "DocumentMoniker": "D:\\Project\\NetCore\\Website\\WebApp\\IdentityServer\\Controllers\\AuthenticationController.cs",
-              "RelativeDocumentMoniker": "IdentityServer\\Controllers\\AuthenticationController.cs",
-              "ToolTip": "D:\\Project\\NetCore\\Website\\WebApp\\IdentityServer\\Controllers\\AuthenticationController.cs",
-              "RelativeToolTip": "IdentityServer\\Controllers\\AuthenticationController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\TungProject\\WebApp\\Infratructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Infratructure\\DependencyInjection.cs",
+              "ToolTip": "D:\\TungProject\\WebApp\\Infratructure\\DependencyInjection.cs",
+              "RelativeToolTip": "Infratructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwCgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T15:27:38.894Z",
+              "WhenOpened": "2025-02-28T10:10:47.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\TungProject\\WebApp\\Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Application\\DependencyInjection.cs",
+              "ToolTip": "D:\\TungProject\\WebApp\\Application\\DependencyInjection.cs",
+              "RelativeToolTip": "Application\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T10:10:30.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginRequestDtos.cs",
+              "DocumentMoniker": "D:\\TungProject\\WebApp\\WebApiDemo\\Controllers\\DTOs\\LoginRequestDtos.cs",
+              "RelativeDocumentMoniker": "WebApiDemo\\Controllers\\DTOs\\LoginRequestDtos.cs",
+              "ToolTip": "D:\\TungProject\\WebApp\\WebApiDemo\\Controllers\\DTOs\\LoginRequestDtos.cs",
+              "RelativeToolTip": "WebApiDemo\\Controllers\\DTOs\\LoginRequestDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T10:05:24.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "D:\\TungProject\\WebApp\\WebApiDemo\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "WebApiDemo\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "D:\\TungProject\\WebApp\\WebApiDemo\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "WebApiDemo\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T10:03:02.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginQuery.cs",
+              "DocumentMoniker": "D:\\TungProject\\WebApp\\Application\\Authentication\\Query\\LoginQuery.cs",
+              "RelativeDocumentMoniker": "Application\\Authentication\\Query\\LoginQuery.cs",
+              "ToolTip": "D:\\TungProject\\WebApp\\Application\\Authentication\\Query\\LoginQuery.cs",
+              "RelativeToolTip": "Application\\Authentication\\Query\\LoginQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T09:24:27.957Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "UserServices.cs",
-              "DocumentMoniker": "D:\\Project\\NetCore\\Website\\WebApp\\Infratructure\\Services\\User\\UserServices.cs",
+              "DocumentMoniker": "D:\\TungProject\\WebApp\\Infratructure\\Services\\User\\UserServices.cs",
               "RelativeDocumentMoniker": "Infratructure\\Services\\User\\UserServices.cs",
-              "ToolTip": "D:\\Project\\NetCore\\Website\\WebApp\\Infratructure\\Services\\User\\UserServices.cs",
+              "ToolTip": "D:\\TungProject\\WebApp\\Infratructure\\Services\\User\\UserServices.cs",
               "RelativeToolTip": "Infratructure\\Services\\User\\UserServices.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBUAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T17:05:28.792Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "TokenService.cs",
-              "DocumentMoniker": "D:\\Project\\NetCore\\Website\\WebApp\\Infratructure\\Services\\Token\\TokenService.cs",
-              "RelativeDocumentMoniker": "Infratructure\\Services\\Token\\TokenService.cs",
-              "ToolTip": "D:\\Project\\NetCore\\Website\\WebApp\\Infratructure\\Services\\Token\\TokenService.cs",
-              "RelativeToolTip": "Infratructure\\Services\\Token\\TokenService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T17:05:22.159Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Project\\NetCore\\Website\\WebApp\\IdentityServer\\Program.cs",
-              "RelativeDocumentMoniker": "IdentityServer\\Program.cs",
-              "ToolTip": "D:\\Project\\NetCore\\Website\\WebApp\\IdentityServer\\Program.cs",
-              "RelativeToolTip": "IdentityServer\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T16:40:43.385Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ErrorHandlingFilterAttribute.cs",
-              "DocumentMoniker": "D:\\Project\\NetCore\\Website\\WebApp\\IdentityServer\\Fillter\\ErrorHandlingFilterAttribute.cs",
-              "RelativeDocumentMoniker": "IdentityServer\\Fillter\\ErrorHandlingFilterAttribute.cs",
-              "ToolTip": "D:\\Project\\NetCore\\Website\\WebApp\\IdentityServer\\Fillter\\ErrorHandlingFilterAttribute.cs",
-              "RelativeToolTip": "IdentityServer\\Fillter\\ErrorHandlingFilterAttribute.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T14:34:43.93Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "D:\\Project\\NetCore\\Website\\WebApp\\IdentityServer\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "IdentityServer\\DependencyInjection.cs",
-              "ToolTip": "D:\\Project\\NetCore\\Website\\WebApp\\IdentityServer\\DependencyInjection.cs",
-              "RelativeToolTip": "IdentityServer\\DependencyInjection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T14:42:18.745Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ConfigurationHelper.cs",
-              "DocumentMoniker": "D:\\Project\\NetCore\\Website\\WebApp\\Infratructure\\ConfigurationHelper.cs",
-              "RelativeDocumentMoniker": "Infratructure\\ConfigurationHelper.cs",
-              "ToolTip": "D:\\Project\\NetCore\\Website\\WebApp\\Infratructure\\ConfigurationHelper.cs",
-              "RelativeToolTip": "Infratructure\\ConfigurationHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T14:42:08.098Z",
+              "WhenOpened": "2025-02-28T09:10:28.855Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "ErrorHandlingMiddleware.cs",
-              "DocumentMoniker": "D:\\Project\\NetCore\\Website\\WebApp\\IdentityServer\\Middleware\\ErrorHandlingMiddleware.cs",
-              "RelativeDocumentMoniker": "IdentityServer\\Middleware\\ErrorHandlingMiddleware.cs",
-              "ToolTip": "D:\\Project\\NetCore\\Website\\WebApp\\IdentityServer\\Middleware\\ErrorHandlingMiddleware.cs",
-              "RelativeToolTip": "IdentityServer\\Middleware\\ErrorHandlingMiddleware.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Title": "IUserServices.cs",
+              "DocumentMoniker": "D:\\TungProject\\WebApp\\Application\\Servies\\User\\IUserServices.cs",
+              "RelativeDocumentMoniker": "Application\\Servies\\User\\IUserServices.cs",
+              "ToolTip": "D:\\TungProject\\WebApp\\Application\\Servies\\User\\IUserServices.cs",
+              "RelativeToolTip": "Application\\Servies\\User\\IUserServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T16:35:08.813Z",
+              "WhenOpened": "2025-02-28T09:09:36.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RegiterCommand.cs",
+              "DocumentMoniker": "D:\\TungProject\\WebApp\\Application\\Authentication\\Command\\RegiterCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Authentication\\Command\\RegiterCommand.cs",
+              "ToolTip": "D:\\TungProject\\WebApp\\Application\\Authentication\\Command\\RegiterCommand.cs",
+              "RelativeToolTip": "Application\\Authentication\\Command\\RegiterCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T09:03:32.481Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "D:\\Project\\NetCore\\Website\\WebApp\\Infratructure\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "Infratructure\\DependencyInjection.cs",
-              "ToolTip": "D:\\Project\\NetCore\\Website\\WebApp\\Infratructure\\DependencyInjection.cs",
-              "RelativeToolTip": "Infratructure\\DependencyInjection.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAqwA0AAAAFAAAAAAAAAA==",
+              "Title": "LoginQueryHandler.cs",
+              "DocumentMoniker": "D:\\TungProject\\WebApp\\Application\\Authentication\\MediarHandle\\LoginQueryHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Authentication\\MediarHandle\\LoginQueryHandler.cs",
+              "ToolTip": "D:\\TungProject\\WebApp\\Application\\Authentication\\MediarHandle\\LoginQueryHandler.cs",
+              "RelativeToolTip": "Application\\Authentication\\MediarHandle\\LoginQueryHandler.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAABIAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T15:27:29.899Z",
+              "WhenOpened": "2025-02-28T08:35:14.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RegisterCommandHandler.cs",
+              "DocumentMoniker": "D:\\TungProject\\WebApp\\Application\\Authentication\\MediarHandle\\RegisterCommandHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Authentication\\MediarHandle\\RegisterCommandHandler.cs",
+              "ToolTip": "D:\\TungProject\\WebApp\\Application\\Authentication\\MediarHandle\\RegisterCommandHandler.cs",
+              "RelativeToolTip": "Application\\Authentication\\MediarHandle\\RegisterCommandHandler.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T08:34:31.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\TungProject\\WebApp\\IdentityServer\\appsettings.json",
+              "RelativeDocumentMoniker": "IdentityServer\\appsettings.json",
+              "ToolTip": "D:\\TungProject\\WebApp\\IdentityServer\\appsettings.json",
+              "RelativeToolTip": "IdentityServer\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-28T08:33:45.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\TungProject\\WebApp\\IdentityServer\\Program.cs",
+              "RelativeDocumentMoniker": "IdentityServer\\Program.cs",
+              "ToolTip": "D:\\TungProject\\WebApp\\IdentityServer\\Program.cs",
+              "RelativeToolTip": "IdentityServer\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T16:40:43.385Z",
               "EditorCaption": ""
             }
           ]

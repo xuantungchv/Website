@@ -1,21 +1,34 @@
 ﻿using Application.Authentication.Command;
+using Application.Services.Token;
+using Application.Services.User;
 using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Application.Authentication.MediarHandle
 {
-    internal class RegisterCommandHandler : IRequestHandler<RegiterCommand>
+    public class RegisterCommandHandler : IRequestHandler<RegiterCommand>
     {
 
-
-        public Task Handle(RegiterCommand request, CancellationToken cancellationToken)
+        private readonly ITokenService _tokenService;
+        private readonly IUserServices _userServices;
+        public RegisterCommandHandler(ITokenService tokenService, IUserServices userServices)
         {
-            throw new NotImplementedException();
+            _tokenService = tokenService;
+            _userServices = userServices;
         }
-    }  
-     
+
+        public async Task Handle(RegiterCommand request, CancellationToken cancellationToken)
+        {
+            try
+            {
+                await _userServices.AddUser(request.userName, request.password, request.email);
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            
+        }
+    }
+
 }

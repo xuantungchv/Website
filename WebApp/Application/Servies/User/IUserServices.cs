@@ -2,6 +2,7 @@
 {
     public interface IUserServices
     {
-        Task<bool> AuthenUser(string userName, string passWord);
+        Task AuthenUser(string userName, string passWord);
+        Task AddUser(string userName, string passWord,string email);
     }
 }
