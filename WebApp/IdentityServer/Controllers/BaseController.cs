@@ -1,6 +1,7 @@
 ﻿using log4net;
 using Microsoft.AspNetCore.Mvc;
 using IdentityServer.Controllers.DTOs;
+using IdentityServer.Fillter;
 
 namespace IdentityServer.Controllers
 {
