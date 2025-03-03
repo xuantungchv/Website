@@ -7,12 +7,18 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Servies\Product\ProductHandler\" />
+    <Compile Remove="Servies\Product\**" />
+    <EmbeddedResource Remove="Servies\Product\**" />
+    <None Remove="Servies\Product\**" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="MediatR" Version="12.4.1" />
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Authentication\NewFolder\" />
   </ItemGroup>
 
 </Project>
