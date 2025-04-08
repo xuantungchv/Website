@@ -24,17 +24,15 @@ namespace IdentityServer.Controllers
         {
             try
             {
-                throw new Exception("co ngom khong");
-                var res = _userServices.AuthenUser(request.UserName, request.Password).Result;
-                if (!res)
-                    return ResponseRequest(StatusCodes.Status401Unauthorized);
+                //throw new Exception("co ngom khong");
+                await _userServices.AuthenUser(request.UserName, request.Password);
                 return ResponseRequest(StatusCodes.Status200OK, _tokenService.GenerateToken(request.UserName, request.Password), "");
                 //return ResponseRequest(StatusCodes.Status200OK, "");
             }
             catch (Exception ex)
             {
-                throw ex;
-                //return ResponseRequest(StatusCodes.Status400BadRequest); ;
+                //throw ex;
+                return ResponseRequest(StatusCodes.Status401Unauthorized); ;
             }
 
         }
